@@ -3,7 +3,7 @@ Cleaning-Data-Project
 
 for Coursera- Getting and cleaning data project submission
 
-
+* original data is downloaded from: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 * first download the data file (.zip) and unzip
 * put all useful .txt files into one folder, containing:
     * subject_train.txt

@@ -15,3 +15,4 @@
     *  For example, column 4 is named "tBodyAccmeanX", which is coming from the first variable name (tBodyAcc-mean()-X) in "features.txt", after removing the "()" and "-"
     * "tBodyAccmeanX" is the mean value for body acceleration measured in X axis, a time-domain signal (prefix "t")
     * For more details regarding nomenclature and preprocessing of the data, see "features_info.txt"
+

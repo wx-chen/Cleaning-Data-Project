@@ -23,7 +23,7 @@ for Coursera- Getting and cleaning data project submission
 * the final tidy data frame is in a wide format, with dimentions 180x82
     * first three columns are "subject.id","activity","Group"
     * the rest 79 columns contain mean value for the 79 variables associated with mean/std measurements
-* if one needs a "strict" tidy data frame (long form), with each row only contains value for one variable (e.g. "tBodyAccmeanX" reading for subject 1, walking data), one can use the following codes:
+* if one needs a "strict" tidy data frame (long form), with each row only contains value for one variable (e.g. "tBodyAccmeanX" reading for each subject, each activity), one can use the following codes:
 
     * samdata <- read.table(file="SamsungData.txt", sep=",", header=TRUE)
     * library(reshape2)

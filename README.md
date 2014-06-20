@@ -26,9 +26,7 @@ for Coursera- Getting and cleaning data project submission
 * if one needs a "strict" tidy data frame (long form), with each row only contains value for one variable (e.g. "tBodyAccmeanX" reading for subject 1, walking data), one can use the following codes:
 
     samdata <- read.table(file="SamsungData.txt", sep=",", header=TRUE)
-    
     library(reshape2)
-    
     mdata=melt(samdata, id=c("subject.id","activity","Group"), measure.vars=c("tBodyAccmeanX"))
     
     as "melting" the data will result in a (180*79) x 5 matrix, which is crazily long, I choose to keep the wide data format
